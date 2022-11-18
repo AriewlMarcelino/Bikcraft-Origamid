@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-button:#EC9B15;
+    --color-nav:#FFF7E6;
+    --color-p:#B2B2AC;
+    --color-links:#ECAC08;
+    --color-comments:#332200;
+    --color-bottom-prata:#404040;
+    --color-background:#000000;
+    --background-nossas-bicicletas:#111111;
+}
+/* navbar style */
+header{
+    background: var(--color-background);
+    height: 150px;
+    justify-content: unset;
+    display: grid;
+    align-items: center;
+    padding: 20px;
+}
+.container-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.img-logo{
+    height: 60px;
+}
+.container-nav a{
+    text-decoration: none;
+    color: var(--color-nav);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0 15px 0px 15px;
+}
+.container-nav nav{
+    padding: 20px;
+}
+.container-nav nav a:hover{
+    border-bottom:1px solid var(--color-button);
+    transition: .6s;  
+    padding: 2px;
+    margin: 0 10px 0 10px;
+}
+/* banner */
+
+.container-banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: #000000;
+}
+.box-1{
+    position: relative;
+    width: 615px;
+    left: 200px;
+}
+h1{
+    color: var(--color-nav);
+    max-width: 900px;
+    font-size: 92px;
+    
+}
+.p-banner{
+    color: var(--color-nav);
+    max-width: 900px;
+    font-size: 32px;
+    padding: 40px 0 40px 0;
+}
+span{
+    color: var(--color-button);
+}
+.btn-yellow{
+    height: 80px;
+    width: 200px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--color-background);
+    background-color: var(--color-button);
+}
+.btn-yellow:hover{
+    background-color:var(--color-links);
+    color: var(--background-nossas-bicicletas);
+    transition: .7s;
+}
+.img-banner{
+    position: relative;
+    top: 187px;
+}
+
+
+
