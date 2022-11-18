@@ -10,7 +10,7 @@
     --color-links:#ECAC08;
     --color-comments:#332200;
     --color-bottom-prata:#404040;
-    --color-background:#000000;
+    --color-background:#1a1a1a;
     --background-nossas-bicicletas:#111111;
 }
 /* navbar style */
@@ -55,7 +55,7 @@ header{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    background: #000000;
+    background: var(--color-background);
 }
 .box-1{
     position: relative;
@@ -96,5 +96,141 @@ span{
     top: 187px;
 }
 
+/* seção escolha a sua */
+
+.container-escolha-a-sua{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 345px;
+    margin-bottom: 100px;
+}
+
+.img-escolha{
+    width: 700px;
+    height: 700px;
+}
+
+.h2-tecnologia{
+    color: var(--color-nav);
+    font-size: 92px;
+    max-width: 575px;
+    position: relative;
+    left: 53px;
+    margin-top: 30px;
+    line-height: 73px;
+}
+
+.h2-img-escolha{
+    font-size: 42px;
+    color: var(--background-nossas-bicicletas);
+}
+.p-escolha{
+    font-size: 24px;
+}
+
+/* Tecnologia avançada */
+
+.container-tecnologia-avancada{
+    display: flex;
+    background: var(--background-nossas-bicicletas);
+    height: 990px;
+    justify-content: space-between;
+
+}
+
+.img-tecnologia{
+    height: 1024px;
+    width: 850px;
+    position: relative;
+    top: 88px;
+    right: 200px;
+}
+
+.h2-escolha{
+    font-size: 72px;
+    position: relative;
+    top: 350px;
+    left: 30px;
+}
+
+.p-tecnologia{
+    max-width: 500px;
+    color: white;
+    font-size: 24px;
+    position: relative;
+    left: 60px;
+    margin-top: 50px;
+}
 
 
+.a-tecnologia{
+    color: var(--color-button);
+    font-size: 28px;
+    text-decoration: none;
+    position: relative;
+    left: 60px;
+    text-transform: uppercase;
+    top: 35px;
+}
+
+.a-tecnologia:hover{
+    color: var(--color-links);
+    transition: 0.8s;
+}
+
+.container-motor-rastreador{
+    color: white;
+    display: flex;
+    gap: 53px;
+    padding: 20px 20px 20px 0px;
+    position: relative;
+    margin-top: 65px;
+    left: 60px;
+    flex-wrap: wrap;
+}
+
+.box-motor{
+    font-size: 24px;
+    max-width: 400px;
+    height: 300px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-rastreador{
+    font-size: 24px;
+    max-width: 400px;
+    height: 300px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2-motor,
+.h2-rastreador{
+    position: relative;
+    right: 30px;
+}
+
+.h2-motor::before{
+    content: url(/assets/img/eletrica-svg.svg);
+    position: relative;
+    content: url(/assets/img/eletrica-svg.svg);
+    position: relative;
+    bottom: 30px;
+    left: 32px; 
+}
+.h2-rastreador::before{
+    content: url(/assets/img/eletrica-svg.svg);
+    position: relative;
+    content: url(/assets/img/rastreador-svg.svg);
+    position: relative;
+    bottom: 30px;
+    left: 32px; 
+}
+
+.p-box-escolha{
+    color: var(--color-p);
+}
